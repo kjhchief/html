@@ -1,0 +1,37 @@
+*{box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+#ex{
+		border: 1px solid red;
+		overflow:hidden;
+}
+#ex div{
+	
+		width:100px;
+		height: 50px;
+		margin: 5px 10px;
+		float:left;
+		border-radius: 5px;
+		background:blue;
+		color:white;
+		text-align:center;
+}
+#ex:hover div{
+		height: 400px;
+}
+div.ease{
+		transition: all 3s ease;
+}
+div.linear{
+		transition: all 3s linear;
+}
+div.ease-in{
+		transition: all 3s ease-in;
+}
+div.ease-out{
+		transition: all 3s ease-out;
+}
+div.ease-in-out{
+		transition: all 3s ease-in-out;
+}

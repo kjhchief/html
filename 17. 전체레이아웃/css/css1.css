@@ -1,0 +1,174 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap');
+
+body{
+		font-size: 1em;
+		font-family: 'Nanum Gothic', sans-serif;
+		color: #333;
+		
+		}
+		
+div.container{
+		margin: 0 auto;
+		width: 100%;
+}
+header{width: 100%;
+background-color:pink;}
+		
+			
+header.head1 h1{
+		padding:0 10%;
+		line-height: 150px;
+	}
+
+		
+
+nav.nav1{
+		width: 100%;
+		overflow:hidden;
+		background: black;
+		text-align:center;
+		
+}
+nav.nav1 ul{
+	margin:0 auto;
+	width: 80%;
+	
+}
+nav.nav1 li{
+		width:25%;
+		float:left;
+
+}
+
+nav.nav1 a{
+		display:block;
+		line-height: 40px;
+		color: white;
+}
+
+nav.nav1 a:hover{
+		background:yellow;
+		color:black;
+}
+
+div.back{
+		width: 100%;
+		padding: 20%;
+		border: 10px solid rgba(0,0,0, .5);
+		background: url(slide-3.jpg) ;
+		background-size: cover;
+}
+
+div.pic3_cont{
+		overflow:hidden;
+		background:green;
+		text-align:center;
+		border: 1px solid red;
+		margin:0 auto;
+		
+}
+div.pic3{
+		margin: 0 auto;
+		width:80%;
+		overflow:hidden;
+		
+		}
+		
+div.pic3 p{
+		float:left;
+		width:33%;
+		margin-right: .5%;
+}
+div.pic3 p:last-child{margin-right:0;}
+
+div.pic3_cont img{
+		width:100%;
+		vertical-align:bottom;
+}
+
+div.pic3text{
+		border:1px solid black;
+		line-height: 40px;
+}
+
+div.card3_Mframe{
+		margin: 1% auto;
+		width:80%;
+		border: 5px solid #333;
+	
+}
+
+div.card3_frame{
+		margin:0 auto;
+		width: 100%;
+		overflow:hidden;
+		text-align:center;
+		
+}
+div.card3_frame img{
+		width:100%;
+		vertical-align:bottom;
+		border:none;/*이건 왜 하는거지?*/
+}
+
+div.card1{
+		margin-right: 1%;
+		width:32.666%;
+		float:left;
+		border: 2px solid #333;
+		}
+		
+div.card1:last-child{
+		margin-right: 0;
+	
+}
+
+div.card1 p{
+		border: 5px solid red;
+		font-size:0.8em;
+		line-height: 30px;
+	
+}
+
+footer{
+		overflow:hidden;
+		padding:3% 10%;
+		width: 100%;
+		background:black;
+		color:#fff;
+}
+
+footer h3 ,p{
+		border: 1px solid blue;
+}
+
+footer{
+		padding: 50px 10%;
+		overflow:hidden;
+}
+
+div.sns{float:right; 
+		width: 20%; /*이거 리사이징으로 안에 한번에 조정*/
+		margin-top: -40px;
+		border: 1px solid red;
+		text-align:right;
+		}
+
+div.sns img{
+		width:28.333%;
+		margin-left:5%;
+		border:1px solid yellow;
+}
+
+p.gotop{
+		right: 5%;
+		bottom: 55px; 
+		position:fixed;
+		}
+p.gotop img{
+		width: 30px;
+	
+}

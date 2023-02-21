@@ -1,0 +1,27 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+address{font-style:normal;}
+
+div.outer{
+		width: 30%;
+		margin: 20px auto;
+		padding: 20px;
+		border: 1px solid black;
+		border-radius: 10px;
+		text-align:center;
+		box-shadow: -1px 1px 3px #666;
+}
+div.outer h1{
+		color:pink;
+		text-shadow: -1px 1px 3px #666;
+}
+div.outer img{
+		width: 100%;
+}
+div.outer audio{
+		width: 70%;
+}
+div.outer p:nth-child(4){
+		text-align:justify;
+}

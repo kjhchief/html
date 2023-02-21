@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>entitycode</title>
+	<style>
+	*{margin:0; padding:0;}
+	a{text-decoration:none;}
+	address{font-style:normal;}
+	/*기본 세팅 삼총사*/
+	
+	p{text-align:center;} /*원래는 이렇게 쓰면 안 됨*/
+	
+		p.page_btn{text-align:center; margin-top:150px; border-top: 5px solid red;}
+		p.page_btn a{
+							color:gray;
+							text-decoration:none;
+							text-align:center;
+							font-weight:bold;
+							font-size:25pt
+						}
+	
+		p.a01{font-size:40pt;}
+		span.s01{font-size:40pt; color:pink;}
+		
+		p.a02{font-size:40pt;}
+		span.s02{font-size:40pt; color:pink;}
+		
+		p.a03{font-size:20pt; color:orange;}
+		
+		address{font-style:normal;}
+		
+		p.page_btn a:hover{color:red; text-decoration:underline;}
+		hr{height: 5px; /*높이*/
+			background-color: green;
+			border: 0px;}
+		
+	</style>
+	
+</head>
+
+<body>
+	<!--entitycode.com 특수문자 사이트-->
+	<!--html5에서는 주소 태그 사용시
+	연락처(전화, 이메일,저작권정보)등을 address태그로 쓰고 일반 주소는 p태그로도 사용가능-->
+	
+	
+	<p class="a01">p태그재훈<span class="s01">&#9829;</span>김</p>
+	<p class="a02">p태그재훈<span class="s02">&#9827; &#9827; &#9827;</span>김</p>
+	<p class="a03">p태그서울시 마포구 상수동 1201</p>
+	
+	<address>address태그 서울시 마포구 상수동 1201호</address>
+	<hr>
+	
+	<p class="page_btn">
+		<a href="http://www.naver.com"><<</a>
+		<a href="http://www.naver.com">&lt;</a>
+		<a>LIST</a>
+		<a>&gt;</a>
+		<a>>></a>
+	</p>
+
+	
+	
+	
+	<!--<a href>&lt;&lt; &nbsp&nbsp &lt; &nbsp LIST &nbsp &gt; &nbsp&nbsp &gt; &gt; </a> -->
+
+
+</body>
+	
+	
+</html>

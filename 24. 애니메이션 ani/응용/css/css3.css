@@ -1,0 +1,56 @@
+*{box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+div.box1{
+		position:relative;
+		width:300px;
+		height:50px;
+		background:red;
+		
+		animation-duration: 5s;
+		animation-name:box1ani;
+		animation-iteration-count:infinite;
+		
+}
+@keyframes box1ani{
+		0%{
+			width:0;
+		}
+		50%{
+			width:300px;
+		}
+		100%{
+			width:0;
+		}
+}
+
+/*일정하게 왔다 갔다. 약간의 시차 두고*/
+div.box2{
+		position:relative;
+		width:300px;
+		height:50px;
+		background:orange;
+		
+		animation-duration: 5s;
+		animation-name:box2ani;
+		animation-iteration-count:infinite;
+}
+/*갔다가 50%뒤로 왔다가 다시 갔다가 0으로*/
+@keyframes box2ani{
+		0%{
+			width:0;
+		}
+		25%{
+			width:300px;
+		}
+		50%{
+			width:150px;
+		}
+		75%{
+			width:300px;
+		}
+		100%{
+			width:0px;
+		}
+}

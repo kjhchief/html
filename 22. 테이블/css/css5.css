@@ -1,0 +1,44 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+table, th, td{
+		border-collapse:collapse;
+		text-align:center;
+		padding: 10px;
+		font-size:0.9em;
+		
+		}
+td{
+		vertical-align:top;
+		line-height: 1.6;
+	
+}
+table.tb_wrap{
+		width: 60%;
+		height: 450px;
+		margin: 0 auto;
+		
+}
+caption{
+		font-size: 20px;
+		margin-bottom: 15px;
+}
+tr.blue{
+		background: blue;
+		color:white;
+		border-bottom: 5px solid black;
+		
+}
+tr.bg{
+		background: beige;
+		}
+tr.b1{
+		color: red;
+		font-weight:bold;
+}
+tr.b2 td{
+		text-align:left;
+		
+		
+}

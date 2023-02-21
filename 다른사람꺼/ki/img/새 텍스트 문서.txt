@@ -1,0 +1,14 @@
+1.https://youtu.be/MY7jZGZw9vA
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MY7jZGZw9vA?start=50" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+https://youtu.be/vvF1eq5kjPs
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vvF1eq5kjPs?start=50" title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+https://youtu.be/AG1BT2xc7j4
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AG1BT2xc7j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

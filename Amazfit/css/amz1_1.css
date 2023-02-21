@@ -1,0 +1,252 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color:#888;}
+ul li{list-style:none;}
+
+body{
+		background: rgb(240,240,240);
+		font-family: 'Nanum Gothic', sans-serif;
+}
+
+header{
+		width:100%;
+		background:white;
+		left: 0%;
+		top: 0%;
+		position:fixed;
+		z-index:999;
+}
+header img{
+		vertical-align:bottom;
+}
+header h1{
+		margin-left: 10%;
+		width: 40%;
+		padding: 20px;
+		text-align:left;
+		float:left;
+}
+header div.login{
+		width: 30%;
+		text-align:right;
+		float:right;
+		margin: 50px 100px 0 0;
+}
+header div.login img{
+		width:40px;
+}
+nav{
+		width: 40%;
+		margin-left: 10%;
+
+	
+}
+div.login{
+}
+
+li.menu{
+		width: 33%;
+		float:left;
+		line-height:40px;
+		text-align:center;
+}
+li.menu a{
+		display:block;
+		font-weight: bold;
+}
+li.menu a:hover{
+		
+		color: black;
+}
+
+
+div.slide_fr{
+		margin-top:138px;
+		border: 2px solid red;
+		width: 100%;
+		background: url(../img/amz_home/slide_1.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+	
+}
+div.text_fr{
+		width: 50%;
+		margin-left: 20%;
+}
+div.slide_but{
+		width: 100px;
+		border-radius: 15px;
+		background: linear-gradient(45deg, rgba(252,234,179,1) 35%,rgba(254,191,1,1) 100%);
+		text-align:center;
+}
+
+div.slide_but a{
+		margin-top:50px;
+		display:block;
+		line-height: 40px;
+		font-weight: bold;
+		color:#333;
+		
+}
+
+div.container{
+		margin:10% auto;
+		width:100%;
+		overflow:hidden;
+		}
+
+div.container .box_1:last-child{margin-right:0;}
+
+div.box_1{
+			float:left;
+			width: 31.333%;
+			margin-right: 3%;
+			}
+div.box_1 img{
+					width:100%;
+					}
+div.box_1 h2{
+				margin-top: 20px;
+				}
+div.box_1 p{
+				margin-top: 10px;
+				}
+div.box_1 div{
+					margin-top: 20px;
+					width: 80px;
+					border:1px solid black;
+					border-radius: 5px;
+					text-align:center;
+				}
+div.box_1 a{
+				display:block;
+				font-size: 0.8em;
+				line-height: 20px;
+				color:black;
+}
+
+div.contact{
+		margin: 0 auto;
+		padding: 5% 0;
+		width:100%;
+		background: url("../img/amz_home/section-3.jpg");
+		background-size:cover;
+		background-repeat:no-repeat;
+		text-align:center;
+		color: white;
+}
+div.contact h3,h4,div{margin:1.5% 0;}
+
+div.subs_but{
+		margin: 0 auto;
+		width: 100px;
+		line-height: 40px;
+		background: orange;
+		border-radius: 10px;
+		font-size: 0.8em;
+		font-weight: bold;
+}
+div.subs_but a{
+		display:block;
+		text-decoration: none;
+		color:white;
+}
+
+
+div.contact a.al_a{
+		font-size:13px;
+		color: white;
+		text-decoration:underline;
+	
+}
+div.container3{
+		margin: 0 auto;
+		width: 100%;
+		overflow:hidden;
+}
+div.container3 div.ff{
+		padding: 7%;
+		width: 50%;
+		float:left;
+}
+div.half2{
+		margin-top: 100px;
+
+}
+
+div.container3 div.text1{
+		font-size: 1.3em;
+}
+div.text1 p, div.text1 h1{
+		line-height: 1.3em;
+}
+
+div.container3 img{
+		width: 100%;
+		}
+
+footer{
+		background:white;
+		font-size:0.8em;
+		width: 100%;
+}
+div.text li, div.text p{
+		margin-top: 25px;
+}
+
+footer div.footertop{
+		margin: 0 auto;
+		width: 75%;
+		overflow:hidden;
+		
+}
+
+footer div.footertop div{
+		margin: 50px 0;
+		margin-right: 3%;
+		width: 22.75%;
+		float:left;
+}
+footer div.footertop div:last-child{
+		margin-right: 0%;
+}
+
+div.text a{}
+div.text a:hover{
+		text-decoration:underline;
+}
+
+
+div.footerbottom{
+		margin:0 auto;
+		overflow:hidden;
+		width: 90%;
+}
+
+div.footerbottom div.copy{
+		margin: 0 auto;
+		width:50%;
+		float:left;
+}
+
+div.sns{
+		margin: 10px auto;
+		margin-right: 80px;
+		width: 10%;
+		float:right;
+		text-align:right;
+}
+div.sns img{
+		width:28.333%;
+		margin-left:5%;
+}
+
+p.gotop{
+		right: 2%;
+		bottom: 55px; 
+		position:fixed;
+		z-index:999;
+		}
+p.gotop img{
+		width: 50px;
+	
+}

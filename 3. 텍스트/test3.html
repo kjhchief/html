@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>텍스트 굵기</title>
+	<style>
+		*{margin:0; padding:0;}
+		p{color:green;}
+		p.font01{
+					font-size: 16px;
+					line-height:32px;
+					color:red;
+					}
+		p.font01_1{
+					font: 16px/32px '나눔고딕', Arial, sans-serif;
+					color:red;
+					}
+		p.font02{
+					font-size: 16px;
+					line-height: 2.5; 
+					color:blue;
+					}
+					
+		p.weight01{
+						font-size: 20px;
+						font-weight: bold;
+						font-family: '나눔고딕', Arial, sans-serif;
+						}
+		p.weight02{
+						font-size: 20px;
+						font-weight: 800; /*수치가 높을수록 두꺼워짐. 100단위*/
+						font-family: '나눔고딕', Arial, sans-serif;
+						}
+		p.weight03{
+						font-size: 20px;
+						font-weight: lighter; /*lighter 얇게. 폰트에 따라 light extrabold thin medium black 다양한 속성값 지원*/
+						font-family: '나눔고딕', Arial, sans-serif;
+						}
+		p.weight04{
+						font-size: 20px;
+						font-weight: 200;
+						font-family: '나눔고딕', Arial, sans-serif;
+						}
+		/*bold랑 lighter는 키워드다. */
+		
+	</style>
+
+</head>
+
+<body>
+	<p class="font01">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+	<p class="font01_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+	<p class="font02">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+	<p>무궁화꽃이 피었습니다.</p>
+	<p class="weight01">무궁화꽃이 피었습니다.</p>
+	<p class="weight02">무궁화꽃이 피었습니다.</p>
+	<p class="weight03">무궁화꽃이 피었습니다.</p>
+	<p class="weight04">무궁화꽃이 피었습니다.</p>
+
+
+</body>
+
+</html>

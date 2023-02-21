@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>text-transform</title>
+	<style>
+		*{margin:0; padding:0;}
+			p{
+				color:gray;
+				font-size:30pt;
+				border: 1px solid red;
+				}
+		span{
+				color:pink;
+				font-size:30pt;
+				}
+	span.tr1{text-transform:none;}/*변환안함*/
+	span.tr2{text-transform:capitalize;}/*첫번째글자대문자*/
+	span.tr3{text-transform:uppercase;}/*모든글자대문자*/
+	span.tr4{text-transform:lowercase;}/*모든글자소문자*/
+	
+	</style>
+	
+	
+</head>
+
+<body>
+	<p>[none]<span class="tr1">(joandora)기본</span></p>
+	<p>[capitalize]<span class="tr2">(joandora)첫번째글자대문자</span></p>
+	<p>[uppercase]<span class="tr3">(joandora)모든글자대문자</span></p>
+	<p>[lowercase]<span class="tr4">(JoanDora)모든글자소문자</span></p>
+	
+	<!--span걸면 어떤영역에서 내가 원하는 것만 건드림. 깍두기? 인라인 요소-->
+
+
+</body>
+	
+	
+</html>

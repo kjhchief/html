@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>background_multi</title>
+	<style>
+		*{margin:0; padding:0; box-sizing:border-box;}
+		a{text-decoration:none;}
+		address{font-style:normal;}
+	
+		div.d1{margin: 30px auto; 
+		width: 1200px; height: 300px; 
+		border:1px solid red;
+		background: url(image01_09.jpg) ,url(image01_10.jpg), url(macro.JPG), url(background.jpg) ; 
+		/*4개의 배경 이미지를 콤마로 구분하여 삽입*/
+		background-position: 0 0, 300px 0, 600px 0, 900px 0;
+		background-size: 300px auto, 300px auto, auto 300px, auto 300px;
+		background-repeat:no-repeat;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="d1"></div>
+	
+
+</body>
+	
+	
+</html>

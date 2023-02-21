@@ -1,0 +1,100 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: black;;}
+ul li{list-style:none;}
+
+header{
+		
+		text-align:center;
+		
+		width:100%;
+}
+
+div.top_back{
+		background:blue;
+		padding:30px;
+}
+div.logo{
+	width:100px;
+	margin:0 auto;
+	
+}
+div.logo img{
+	width:100%;
+	vertical-align:bottom;
+}
+
+nav{
+		background:green;
+		width:100%;
+		height:40px;
+		position:relative;
+		/*position:relative; 를 메뉴바, 메뉴버튼 다 줘도 안 되다가 여기 주니까 나오네? */
+}
+ul.menu_bar{
+		width:60%;
+		margin: 0 auto;
+		line-height: 40px;
+		overflow:hidden;
+		
+		
+}
+
+li.main_but{
+		float:left;
+		width:25%;
+		
+		
+}
+li.main_but:hover ul.sub_bg{
+		display:block;
+		
+}
+li.main_but>a{
+		background:skyblue;
+		display:block;
+		color:white;
+}
+li.main_but>a:hover{
+		background:blue;
+}
+ul.sub_bg{
+		width: 100%;
+		height: 400px;
+		background: rgba(0,0,0, .5);
+		display:none;
+		z-index:1;
+		position:absolute;
+		top:40px;
+		left:0
+}
+
+
+ul.sub{
+		position:absolute;
+		top:10px;
+		left: 20%;
+		overflow:hidden;
+		width:60%;
+		z-index:999;
+		border:5px solid white;
+		
+		
+}
+ul.sub a{
+		display:block;
+}
+
+ul.sub>li{
+		float:left;
+		width:16.666%;
+}
+ul.sub>li a:hover{
+		color: blue;
+		outline: 1px solid red;
+		
+}
+div.back{
+		width:100%;
+		height:1000px;
+		background:url(../img/21_FRD_F15_49154.jpg)
+}

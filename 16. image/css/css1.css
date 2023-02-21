@@ -1,0 +1,48 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color:#333;}
+
+body{background:pink;}
+	p{}
+
+h1.hh1{margin: 0 auto; width: 80%; border:5px solid red; text-align:center; }
+h2.hh2{margin: 0 auto; width: 80%; border:5px solid red; text-align:center; }
+
+div.frame1{margin:0 auto; width:80%; border:1px solid green; text-align:center;}
+
+strong.st1{border: 1px solid red; }
+span.sp1{border: 1px solid red; background:yellow; font-weight:bold; color: red;}
+a.a1{font-weight:bold; color:red;}
+a.a1:hover{text-decoration:underline;}
+
+div.frame2{margin: 1% auto; width: 80%; border:5px solid red;}
+p.pp1{border:3px solid blue;}
+p.pp1 img{width: 25%; vertical-align:bottom;}
+
+div.frame2_1{border:3px solid yellow; overflow:hidden;}
+div.frame2_1 p{padding: 10px; width:25%; border:1px solid green; float:left; text-align:center;}
+
+div.frame3{margin: 1% auto; width: 80%; border:5px solid red;}
+div.frame3_1{border:3px solid blue; overflow:hidden;}
+div.frame3_1 p{width: 24.25%; float:left;}
+p.ppp2{margin: 0 1%;}
+p.ppp4{margin-left: 1%;}
+
+div.frame3_1 img{width:100%; vertical-align:bottom;}
+
+div.frame3_2{border:3px solid yellow; overflow:hidden;}
+div.frame3_2 p{padding: 10px; width:24.25%; border:1px solid green; float:left; text-align:justify; font-size:0.8em;}
+p.pppp2{margin: 0 1%;}
+p.pppp4{margin-left: 1%;}
+
+div.frame4{margin: 1% auto; width: 80%; border:3px solid black;}
+
+div.frame4_1{border:3px solid red; overflow:hidden;}
+div.frame4_1 img{width:100%; vertical-align:bottom;}
+div.frame4_1 p{width: 24.25%; border:3px solid blue; float:left;}
+p.box4_1_2{margin: 0 1%;}
+p.box4_1_4{margin-left: 1%;}
+
+div.frame4_2{border:3px solid orange; overflow:hidden;}
+div.frame4_2 p{margin-right: 1%; padding:1%; width: 24.25%; border:3px solid green; float:left; text-align:justify; font-size:0.8em;}
+div.frame4_2 p.box4_2_4{margin-right: 0;}
+/*알아따!!*/

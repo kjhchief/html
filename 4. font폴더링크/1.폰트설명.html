@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>폰트설명</title>
+	<style>
+		@font-face{font-family:'NGothic';
+		src:url('font/Nanum_Gothic/NanumGothic-Regular.ttf');}
+		
+		@font-face{font-family:'NGothicB';
+		src:url('font/Nanum_Gothic/NanumGothic-Bold.ttf');}
+		
+		@font-face{font-family:'NGothicEB';
+		src:url('font/Nanum_Gothic/NanumGothic-ExtraBold.ttf');}
+		
+		/*@font-face 명시 font-family명은 임의지만 규칙 지켜주는 것이 좋음. font 폴더 안에 서체 있어야 인식함. 서버에도 같이올려야 함.*/
+		
+		*{margin:0; padding:0;}
+		a{text-decoration:none;}
+		address{font-style:normal;}
+		
+		#font_0_div{font-size: 12pt; width:800px; border: 5px solid green; border-radius:20px; margin: 10px 0; 
+						text-indent:10px; font-family:'NGothic', sans-serif; line-height:20px; text-align:left;}
+						
+		#font_1_div{font-size: 2em; width:800px; border: 5px solid green; border-radius:20px; margin: 10px 0; 
+						text-indent:10px; font-family:'NGothicB', sans-serif; line-height:2em; text-align:center;
+						font-style: italic;  text-decoration:underline;}
+						
+		#font_2_div{font-size: 2em; width:800px; border: 5px solid green; border-radius:20px; margin: 10px 0; 
+						text-indent:10px; font-family:'NGothicEB', sans-serif; line-height:2em; text-align:right; text-decoration: line-through; background: yellow;}
+	
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="font_0_div"> <!--태그명을 클래스 이름에 지정하면 안 됨 -->
+	font-size: 폰트의 크기를 지정합니다.<br>
+	text-indent: 20px; <br>
+	font-size: 12px;<br>
+	font-family: 'NGothic', sans-serif;<br>
+	font-style: normal;<br>
+	font-weight:normal;<br>
+	line-height: 12px;<br><!--행간-->
+	text-align:left;<br>
+	text-decoration:none;<br> <!--밑줄, 삭제선 등-->
+	</div>
+	
+	<div id="font_1_div"> <!--태그명을 클래스 이름에 지정하면 안 됨 -->
+	font-size: 폰트의 크기를 지정합니다.<br>
+	text-indent: 20px; <br>
+	font-size: 12px;<br>
+	font-family: 'NGothic', sans-serif;<br>
+	font-style: normal;<br>
+	font-weight:normal;<br>
+	line-height: 12px;<br><!--행간-->
+	text-align:left;<br>
+	text-decoration:none;<br> <!--밑줄, 삭제선 등-->
+	</div>
+	
+	<div id="font_2_div"> <!--태그명을 클래스 이름에 지정하면 안 됨 -->
+	font-size: 폰트의 크기를 지정합니다.<br>
+	text-indent: 20px; <br>
+	font-size: 12px;<br>
+	font-family: 'NGothic', sans-serif;<br>
+	font-style: normal;<br>
+	font-weight:normal;<br>
+	line-height: 12px;<br><!--행간-->
+	text-align:left;<br>
+	text-decoration:none;<br> <!--밑줄, 삭제선 등-->
+	</div>
+	
+	<p><pre>
+	font-size 			폰트의 크기를 지정합니다.
+	font-family 		폰트의 글꼴을 지정합니다.
+	font-style 			폰트의 기울기를 지정합니다.
+	font-weight 		폰트의 굵기를 지정합니다.
+	line-height 		글자의 행간의 높이를 지정합니다.
+	text-align 			글자의 정렬 상태를 지정합니다.
+	text-decoration 	글자의 가로 줄 출력을 설정합니다.(밑줄, 취소선 등)
+	text-indent 		글자의 들여쓰기를 지정합니다.
+	text-indent: 		10px; 글자의 들여쓰기를 10px로 지정합니다.
+	</pre></p>
+
+</body>
+	
+	
+</html>

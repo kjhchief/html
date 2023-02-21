@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>color</title>
+	<style>
+		*{margin:0; padding:0;}
+		
+		p{color:yellow;}
+		p.key{background:#000;}
+		p.hex{background:#669;} /*#666699 육진수를 3개로 축약*/
+		p.rgb01{background: rgba(35,192,147, .2);} /*투명도. 0.0(투명)~1.0(불투명)*/
+		p.rgb02{background: rgb(35,192,147);}
+		
+		div.bg1{background:pink;} /*두 번째 단락 바탕에 핑크 줘서 색이 섞임*/
+		
+		p.font_color{color: #999;}
+		p.font_color span{color:blue;}
+		
+		#hd1{color:orange;}
+	
+		p.a{color:#738;}
+		p.a span{font-weight: bold; color:blue;}
+		
+		p.scroll{color: green;}
+		p.scroll .scroll_1{font-weight: bold; color:purple;}
+		/*span.scroll_1{font-weight: bold; color:purple;}*/
+
+	</style>
+</head>
+
+<body>
+	<div>
+		<p class="key">The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+		<p class="hex">The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+		<p class="rgb01">투명도30%. The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+		<p class="rgb02">The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+	</div>
+	<br>
+	<div class="bg1">
+		<p class="key">The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+		<p class="hex">The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+		<p class="rgb01">투명도30%. The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+		<p class="rgb02">The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.</p>
+	</div>
+	
+	<p class="font_color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />
+	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br />
+	<span>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br />
+	It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  <br />
+	It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+	</p>
+	
+	<h2 id="hd1">콘텐츠</h2>
+	<h1>박스의 크기를 넘어가는 경우</h1>
+	
+	<p class="a">콘텐츠의 내용이 박스의 크기를 넘어가는 경우 <span>박스</span>의 크기만큼만 보이고 나머지 콘텐츠는 보이지 않도록 숨길 수 있는데, 이때 overflow:hidden;이라고 선언하면 됩니다. 박스의 크기와 콘텐츠의 내용과 상관없이 박스에 스크롤바를 생성할 때는 overflow: scroll;을 선언하면 됩니다. 이때 만약 박스의크기가 콘텐츠보다 클 경우 스크롤바는 비활성화되어 나타납니다 </p>
+	
+	<p class="a">콘텐츠의 내용이 박스의 크기를 넘어가는 경우 <span>박스</span>의 크기만큼만 보이고 나머지 콘텐츠는 보이지 않도록 숨길 수 있는데, 이때 overflow:hidden;이라고 선언</p>
+	
+	 <p class="scroll">박스의 크기와 콘텐츠의 내용과 상관없이 박스에 <span class="scroll_1">스크롤바</span>를 생성할 때는 overflow: scroll;을 선언하면 됩니다. 이때 만약 박스의크기가 콘텐츠보다 클 경우 스크롤바는 비활성화되어 나타남</p>
+	
+
+</body>
+	
+	
+</html>

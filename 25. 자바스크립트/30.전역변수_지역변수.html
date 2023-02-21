@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>30.전역변수_지역변수</title>
+	<script type="text/javascript">
+		var i=10; //초기값 변수
+		var num=20; //전역변수 num=20
+		
+		///////////////////지역변수//////////////////////
+		function theTest(){
+			var num=i+200; //var을 붙여 지역변수정의
+			//지역변수 num=210(i값10+200)
+			//자신이 선언된 함수 내에서만 사용가능
+			//밖에서 사용할 수 없음
+			//지역변수 우선시 호출
+			
+		alert(num); //210
+		
+		}
+		
+		theTest(); //theTest함수의 호출(지역변수 num의 영역 210)
+			
+		////////////////////////////////
+		
+		function theFnc(){//theFnc함수의 호출(전역변수 num의 영역)
+			document.write(num);//출력 결과:20
+		}
+		theFnc();
+		
+		
+	</script>
+	<style>
+
+	</style>
+</head>
+
+<body>
+
+		
+
+</body>
+	
+	
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>종속상속</title>
+	<style>
+		/*기본 font 크기의 설정은 16px 12pt 1em*/
+		
+		#a1 {font-size: 16px; border: 10px solid red;}
+		#a2 {font-size: 32px; border: 1px solid red;}
+		/*절대 단위니까, 상속부모의 영향 없음*/
+		
+		#a8 {font-size: 12pt; border: 10px solid blue;}
+		#a9 {font-size: 24pt; border: 1px solid red;}
+		/*절대 단위니까, 상속부모의 영향 없음*/
+		
+		#a3 {font-size: 3em; border: 10px solid green;}
+		#a4 {font-size: 1em; border: 1px solid blue;}
+		/*a3상속부모의 영향을 받아서, 그 속성 그대로 같은 사이즈*/
+		#a4_1 {font-size: 2em; border: 1px solid blue;}
+		/*a3상속 부모의 영향을 받아서, 2배*/
+		
+		#a10 {font-size: 1em; border: 10px solid green;}
+		#a11 {font-size: 1em; border: 1px solid blue;}
+		#a11_1 {font-size: 2em; border: 1px solid blue;}
+		/*부모 값에 자식이 영향 받는거 비교하기 위함*/
+		
+		#a5 {font-size: 3rem; border: 10px solid orange;}
+		#a6 {font-size: 1rem; border: 1px solid green;}
+		#a7 {font-size: 2rem; border: 1px solid green;}
+		/*절대 단위니까, 상속부모의 영향 없음*/
+	
+	</style>
+	
+</head>
+
+<body>
+	<div id="a1">
+		<p>기본단위16px</p>
+		
+		<div id="a2">
+			<p>단위 32px상속부모의 영향 없음</p>
+		</div>
+	</div>
+	
+	<p></p><p></p>
+	
+	<div id="a8">
+		<p>기본단위12pt</p>
+		
+		<div id="a9">
+			<p>단위 24pt상속부모의 영향 없음</p>
+		</div> 
+	</div>
+	
+	<p></p><p></p>
+	
+	<div id="a3">
+		<p>기본단위3em</p>
+		
+		<div id="a4">
+			<p>단위 1em상속부모의 영향 있음</p>
+		</div> 
+		<div id="a4_1">
+			<p>단위 2em상속부모의 영향 있음</p>
+		</div>
+	</div>
+	
+	<p></p><p></p>
+	
+	<div id="a10">
+		<p>기본단위1em</p>
+		
+		<div id="a11">
+			<p>단위 1em상속부모의 영향 있음</p>
+		</div> 
+		<div id="a11_1">
+			<p>단위 2em상속부모의 영향 있음</p>
+		</div>
+	</div>
+	
+	<p></p><p></p>
+	
+	<div id="a5">
+		<p>기본단위3rem</p>
+		
+		<div id="a6">
+			<p>단위 1rem상속부모의 영향 없음(절대단위)</p>
+		</div> 
+		<div id="a7">
+			<p>단위 2rem상속부모의 영향 없음(절대단위)</p>
+		</div>
+	</div>
+	
+
+</body>
+	
+	
+</html>

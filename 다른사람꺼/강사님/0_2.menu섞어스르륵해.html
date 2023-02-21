@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+*{margin:0; padding:0;}
+ul li{list-style:none;}
+a{text-decoration:none;}
+
+h1{width:100%; margin:10px 0;text-align:center;}
+nav{width:60%; margin:20px auto;}
+
+nav>ul.main{width:100%; overflow:hidden; box-sizing:border-box;}
+nav>ul.main>li{width:20%; float:left; box-sizing:border-box; text-align:center;}
+nav>ul.main>li a{display:block; line-height:50px; background:skyblue;  color:#333; font-weight:bold; font-size:0.85em;}
+nav>ul.main>li a:hover{background:orange; color:#fff;}
+
+nav>ul.main>li>ul.sub1>li{width:100%; margin-bottom:1px;}
+nav>ul.main>li>ul.sub1>li a{background:yellowgreen;}
+nav>ul.main>li>ul.sub1>li a:hover{background:brown;}
+
+nav>ul.main>li>ul.sub2{width:300%; overflow:hidden; box-sizing:border-box;}
+nav>ul.main>li>ul.sub2>li{width:33.333%; float:left; border-right:1px solid #fff;box-sizing:border-box;}
+nav>ul.main>li>ul.sub2>li:last-child{border-right:0;}
+nav>ul.main>li>ul.sub2>li a{background:skyblue;}
+nav>ul.main>li>ul.sub2>li a:hover{background:brown;}
+
+nav>ul.main>li>ul.sub1>li{display:none;}
+nav>ul.main>li:hover ul.sub1>li{display:block;}
+
+nav>ul.main>li>ul.sub2>li{opacity:0; }
+nav>ul.main>li:hover ul.sub2>li{opacity:1; transition:all 1s ease;}
+
+nav>ul.main>li>ul.sub2>li{height:0; transition:all 1s ease;}
+nav>ul.main>li:hover ul.sub2>li{height:50px; transition:all 1s ease;}
+
+
+</style>
+</head>
+
+<body>
+	<h1>메인메뉴</h1>
+	<nav>
+	<ul class="main">
+		<li><a href="#">메인메뉴1</a>
+			<ul class="sub1">
+				<li><a href="#">sub menu1</a></li>
+				<li><a href="#">sub menu1</a></li>
+				<li><a href="#">sub menu1</a></li>
+				<li><a href="#">sub menu1</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="#">메인메뉴2</a></li>
+		
+		<li><a href="#">메인메뉴3</a>
+			<ul class="sub2">
+				<li><a href="#">sub menu2</a></li>
+				<li><a href="#">sub menu2</a></li>
+				<li><a href="#">sub menu2</a></li>
+			</ul>
+		</li>
+		
+		<li><a href="#">메인메뉴4</a></li>
+		
+		<li><a href="#">메인메뉴5</a></li>
+	</ul>
+	</nav>
+</body>
+</html>

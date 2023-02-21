@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>김재훈 test11</title>
+	<link rel="stylesheet" type="text/css" href="testcss.css">
+
+	<style>
+	/*스타일시트의 주석 표시*/
+
+/*
+class
+문서 내에서 여러번 사용할 수 있는 선택자로 요소명과 클래스명을 구분할 때는 도트(.)를 사용합니다. class속성 줄 때는 해당 class이름을 가져와서 앞에 .을 붙임: .aa
+
+p.aa하면 p가 곧 aa(동격) : p중 aa만 바뀜
+p .aa하면 p내부의 class aa (하위) : p하위(내부)의 class명이 aa바뀜
+
+스페이스 공백 한칸(후손선택자)은 하위 개념
+[ex].box .box1 p {color:green;}
+
+id
+id선택자는 문서 내에서 한 번만 사용할 수 있으며, 요소명과 아이디명을 구분할 때는 파운드(#) 기호를 사용합니다.
+id 속성 줄 때는 해당 id이름을 가져와서 앞에 #을 붙임: #text */
+
+	
+		*{margin:0; padding:0;}
+		a{text-decoration:none;}
+		address{font-style:normal;}
+		
+		div.d1{width: 60%; border: 1px solid #333; padding: 20px; margin: 0 auto; margin-bottom: 30px;}
+		p.v{font-size: 2em; text-align:justify; }
+			
+		span.s1{color: pink;}
+		span.s2{color: green;}
+		
+		h2.h{text-align: center; color: blue;}
+		p.p1{color: red; }
+		p.p1 .s1{font-size: 100pt;} /*하위 클래스*/
+		p.p2{}
+		p.p3{color: orange; }
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="d1">
+		<h2 class="h">스타일 연습</h2>
+	</div>
+
+	<div class="d1">
+		<p class="p1 v"><span class="s1">녹차</span>는 <span style="color:blue;">은은한 향</span>을 좋아하는 사람들이 애용하는 차이다.녹차를 마실 줄 모르는 사람들은 티백들을 모두 뜯어 주전자에 넣고 끊이기도 하는데강한 차의 향기도 견디기 힘들겠지만 보관도 힘들고그때그때 <span class="s2">방금 끓인 듯한 맛</span>을 느끼지 못하게 되며 진한 카페인 덕에 밤에 잠들기도 힘들 것이다.</p>
+	</div>
+		
+	<div class="d1">
+		<p class="p2 v"><span class="s1">녹차</span>는 은은한 향을 좋아하는 사람들이 애용하는 차이다.녹차를 마실 줄 모르는 사람들은 티백들을 모두 뜯어 주전자에 넣고 끊이기도 하는데강한 차의 향기도 견디기 힘들겠지만 보관도 힘들고그때그때 <span class="s2">방금 끓인 듯한 맛</span>을 느끼지 못하게 되며 진한 카페인 덕에 밤에 잠들기도 힘들 것이다.</p>
+	</div>
+
+	<div class="d1">
+		<p class="p3 v"><span class="s1">녹차</span>는 은은한 향을 좋아하는 사람들이 애용하는 차이다.녹차를 마실 줄 모르는 사람들은 티백들을 모두 뜯어 주전자에 넣고 끊이기도 하는데강한 차의 향기도 견디기 힘들겠지만 보관도 힘들고그때그때 <span class="s2">방금 끓인 듯한 맛</span>을 느끼지 못하게 되며 진한 카페인 덕에 밤에 잠들기도 힘들 것이다.</p>
+	</div>
+
+</body>
+
+</html>

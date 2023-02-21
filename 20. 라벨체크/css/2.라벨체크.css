@@ -1,0 +1,18 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+div{
+		width: 500px;
+		height: 0px;
+		border: 1px solid transparent;
+		overflow:hidden;
+		transition-duration: 1s;
+		/*싸서 올려 스킬 ???? */
+}
+
+input[type=checkbox]:checked + div{
+		height: 150px;
+		border: 1px solid green;
+		transition-duration: 1s;
+}

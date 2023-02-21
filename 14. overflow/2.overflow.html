@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>overflow</title>
+	<style>
+		*{margin:0; padding:0; box-sizing: border-box;}
+	
+		div.yel{
+			margin: 150px;
+			width:350px; height: 100px;
+			position: relative; /*엄마 기준*/
+			background: yellow;
+			}
+			
+		div.yel div{
+			width: 100px;
+			height: 100px; 
+			}
+			
+		div.red{
+			background:red;
+			position: absolute left: 0px top: 0px;
+			}
+		div.gre{
+			background:green;
+			position: absolute; left: 40px; top: 40px;
+			}
+		div.blu{
+			background:blue;
+			position: absolute; left: 80px; top: 80px;
+			}
+
+	</style>
+</head>
+
+<body>
+	<div class="yel">
+		<div class="red">red</div>
+		<div class="gre">green</div>
+		<div class="blu">blue</div>
+	</div>
+
+</body>
+	
+	
+</html>

@@ -1,0 +1,19 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+div.box{
+		border: 1px solid black;
+		width: 100px;
+		height: 100px;
+		background:#0000ff;
+		transition: width 2s, height 2s, background-color 2s, border 2s,transform 2s;
+		-webkit-transition: width 2s, height 2s, background-color 2s, border 2s,transform 2s;
+}
+div.box:hover{
+		border:10px solid black;
+		width: 200px;
+		height: 200px;
+		background:#ffcccc;
+		transform: rotate(180deg);
+}

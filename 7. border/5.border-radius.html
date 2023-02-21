@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>속담풀이</title>
+	<style>
+		*{margin:0; padding:0;}
+		a{text-decoration: none;}
+		address{font-style: normal;}
+		
+		div{margin:10px;
+		width:150px; 
+		height: 150;
+		border: 10px solid black;
+		text-align:center;
+		line-height:150px;
+		color:white;
+		background:red;
+		}
+		
+		#radius_1_div{border-radius: 50px 0px 0px 0px;}
+		/*상단 왼쪽에 50픽셀의 반지름을 적용합니다*/
+		#radius_2_div{border-radius: 0px 50px 0px 0px;}
+		/*상단 오른쪽에 50픽셀의 반지름을 적용합니다*/
+		#radius_3_div{border-radius: 0px 0px 50px 0px;}
+		/*하단 오른쪽에 50픽셀의 반지름을 적용합니다*/
+		#radius_4_div{border-radius: 0px 0px 0px 50px;}
+		/*하단 왼쪽에 50픽셀의 반지름을 적용합니다*/
+		#radius_5_div{border-radius: 50px 0px;}
+		/*상단 왼쪽, 하단 오른쪽에 50픽셀의 반지름을 적용합니다*/
+		
+		#radius_6_div{border-radius: 0px 50px;}
+		/*상단 오른쪽, 하단 왼쪽에 50픽셀의 반지름을 적용합니다*/
+		#radius_7_div{border-radius: 50px;}
+		/*모든 모서리에 50픽셀의 반지름을 적용합니다*/
+		#radius_8_div{border-radius: 20px 50px 80px;}
+		/*상단 왼쪽 20px, 상단 오른쪽 50px, 하단 오른쪽 80px, 하단 왼쪽 50px 반지름 적용*/
+		#radius_9_div{border-radius: 150px;}
+		/*border-radius: 50%;*/
+		/*div 요소의 너비만큼 150픽셀의 반지름을 적용, 50%의 반지름을 적용합니다*/
+
+	</style>
+</head>
+
+<body>
+	
+	<div id="radius_1_div">50px 0px 0px 0px;</div>
+	<div id="radius_2_div">0px 50px 0px 0px;</div>
+	<div id="radius_3_div">0px 0px 50px 0px;</div>
+	<div id="radius_4_div">0px 0px 0px 50px;</div>
+	<div id="radius_5_div">50px 0px;</div>
+	<div id="radius_6_div">0px 50px;</div>
+	<div id="radius_7_div">50px;</div>
+	<div id="radius_8_div">20px 50px 80px;</div>
+	<div id="radius_9_div">150px;</div>
+	
+
+</body>
+	
+	
+</html>
+

@@ -1,0 +1,319 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+address{font-style:normal;}
+
+body{
+		font-family: 'Noto Sans KR', sans-serif;
+}
+section.wrap{
+
+}
+/*헤더*/
+header{
+		background: #999;
+		width:100%;
+		left: 0%;
+		top: 0%;
+		position:fixed;
+		z-index:99;
+		height:128px;
+}
+div.top_head{
+		margin: 0 auto;
+		width: 90%;
+		overflow:hidden;
+		line-height: 40px;
+		font-size: 0.9em;
+}
+div.top_head a:hover{
+		color: blue;
+}
+
+div.top_head div{
+		width: 50%;
+		float: left;
+}
+div.top_head div:nth-child(2){
+		text-align:right;
+}
+nav.mid_head{
+		background:white;
+		overflow:hidden;
+		line-height: 40px;
+		font-size: 0.9em;
+		
+}
+div.mid_logo{
+		width:10%;
+		margin-left:5%;
+		float:left;
+		padding: 3px 0 5px 0;
+	
+}
+div.mid_logo img{
+		width:100px;
+		height:35px;
+		vertical-align:bottom;
+}
+ul.mid_left{
+		width: 55%;
+		overflow:hidden;
+		float:left;
+}
+ul.mid_left>li{
+		float:left;
+}
+li.mid_left_but1:hover>ul{
+		display:block;
+}
+ul.menu1_sub{
+		display:none;
+}
+
+ul.mid_right{
+		width: 25%;
+		margin-right:5%;
+		float:right;
+
+}
+div.bot_head{
+		background: #000066;
+		height:40px;
+}
+
+ul.bot_left{
+		margin-left:5%;
+		width: 30%;
+		
+		line-height: 40px;
+		text-align: center;
+		color: white;
+}
+ul.bot_left a{
+		background: #000099;
+		display:block;
+		color:white;
+		
+}
+
+
+ul.bot_left a:hover{
+		background: #0000cc;
+		cursor: pointer;
+}
+ul.bot_left>li{
+		display:none;
+		width: 60%;
+		float:right;
+		
+}
+ul.bot_left:hover>li{
+		
+		display:block;
+}
+
+/*헤더 밑 비디오*/
+div.video{
+		margin-top:128px;
+}
+section.card_half{
+		width: 100%;
+		overflow:hidden;
+		color:white;
+}
+div.card_half_left{
+		width: 49.75%;
+		height: 600px;
+		margin-right: .5%;
+		float:left;
+		background: url(../img/1.home/orange_car.jpg) no-repeat;
+		background-size:cover;
+		position:relative;
+}
+div.card_half_left_box{
+		position:absolute;
+		bottom:50px;
+		left: 50px;
+}
+div.card_half_left_box div{
+		border: 1px solid white;
+		width: 150px;
+		text-align:center;
+}
+div.card_half_left_box a{
+		color:white;
+		line-height: 35px;
+		display:block;
+}
+div.card_half_left_box a:hover{
+		background:white;
+		color: #333;
+}
+
+div.card_half_right{
+		width: 49.75%;
+		height: 600px;
+		float:left;
+		background: url(../img/1.home/alexa.jpg) no-repeat;
+		background-size:cover;
+		position:relative;
+}
+div.card_half_right_box{
+		position:absolute;
+		bottom:50px;
+		right: 50px;
+}
+div.card_half_right_box div{
+		border: 1px solid white;
+		width: 150px;
+		text-align:center;
+}
+div.card_half_right_box a{
+		color:white;
+		line-height: 35px;
+		display:block;
+}
+div.card_half_right_box a:hover{
+		background:white;
+		color: #333;
+}
+/*presents_wrap*/
+section.presents_wrap{
+		background:white;
+		width:100%;
+		
+}
+div.pic_presents{
+		margin: 50px auto;
+		width: 70%;
+}
+div.pic_presents img{
+		width: 100%;
+		vertical-align:bottom;
+}
+div.text_presents{
+		text-align:center;
+}
+div.text_presents h3{
+		font-size: 25px;
+}
+div.text_presents h2{
+		font-size: 70px;
+}
+div.order_copy{
+		width: 175px;
+		margin: 15px auto 50px auto;
+		text-align:center;
+		border: 2px solid black;
+		line-height: 50px;
+}
+div.order_copy a{
+		display:block;
+}
+/*middle_bar*/
+section.middle_bar{
+		background: #999;
+		height:500px;
+		border: 3px solid red;
+}
+/*photo_zone*/
+section.photo_zone{
+		width:100%;
+		
+}
+div.photo_zone_text{
+		text-align:center;
+}
+div.photo_zone_text h3{
+		font-size: 25px;
+}
+div.photo_zone_text h2{
+		font-size: 70px;
+}
+div.find_you_ford{
+		width: 200px;
+		margin: 15px auto 40px auto;
+		text-align:center;
+		font-size:25px;
+		font-weight:bold;
+		line-height: 50px;
+}
+div.pics_wrap{
+		width:100%;
+}
+div.pics_wrap_part1{
+		width:100%;
+		overflow:hidden;
+}
+div.pic1{
+		height: 500px;
+		width: 65%;
+		margin-right: .2%;
+		background: url(../img/1.home/photozone/23_FRD_F15_57781_Heritage_PackShot.jpg) no-repeat;
+		background-size:cover;
+		
+}
+
+
+/*footer*/
+footer{
+		background:#333;
+		color: #999;
+		font-size:0.9em;
+}
+footer h3{
+		color: white;
+}
+div.foot_lang{
+		width: 80%;
+		margin: 0 auto 30px auto;
+		padding: 30px 0;
+}
+div.foot_lang a{
+		color:white;
+}
+div.foot_menu{
+		overflow:hidden;
+		width: 80%;
+		margin:0 auto;
+		line-height: 40px;
+}
+div.foot_menu a{
+		color: #999;
+}
+div.foot_menu a:hover{
+		color:white;
+}
+div.foot_menu div{
+		float:left;
+		width: 19%;
+		margin-right: 8%;
+}
+hr{
+		margin: 10px 0;
+}
+div.foot_menu div.foot_menu04{
+		margin-right: 0;
+}
+div.foot_bottom{
+		width: 80%;
+		margin: 0 auto;
+		padding: 50px 0;
+		color:white;
+		font-size: 1em;
+		font-weight:bold;
+		overflow:hidden;
+}
+div.foot_sign{
+		width:50%;
+		float:left;
+}
+div.foot_sns{
+		width:50%;
+		float:left;
+		text-align:right;
+}
+div.foot_sns img{
+		width: 40px;
+}

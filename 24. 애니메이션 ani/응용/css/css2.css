@@ -1,0 +1,33 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+#myball{
+		position:relative;
+		width:100px;
+		height:100px;
+		border-radius: 50%;
+		border: 2px solid black;
+		background: url(sunflower.png);
+		animation-duration: 5s;
+		animation-name:myani;
+		animation-iteration-count:1;
+		/*한 번만 실행*/
+		-webkit-animation-duration: 5s;
+		-webkit-animation-name:myani;
+		-webkit-animation-iteration-count:1;
+		
+
+}
+
+@keyframes myani{
+	0%{
+			left: 0px
+	}
+	50%{
+			left:500px
+	}
+	100%{
+			left: 0px
+	}
+}

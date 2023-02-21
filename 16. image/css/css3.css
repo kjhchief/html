@@ -1,0 +1,32 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+
+h3.t1{font-size:1em;}
+
+div.frame{
+			margin:10px auto; 
+			width: 80%; 
+			overflow:hidden;
+			border: 1px solid black; 
+			text-align:center;
+			}
+
+div.frame div{
+				margin-right: .5%;
+				width: 19.6%; 
+				float:left;
+				border: 1px solid blue; 
+				}
+div.frame .frame_5{margin-right: 0;}
+
+div.frame img{
+					width:100%; 
+					vertical-align:bottom;
+					}
+
+div.frame p{
+				margin: 10px 0; 
+				border:1px solid black; 
+				line-height:40px;
+				}
+

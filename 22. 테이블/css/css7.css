@@ -1,0 +1,65 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+table, th, td{
+		border-collapse:collapse;
+		text-align:center;
+		padding: 15px;
+		font-size:0.9em;
+		
+		}
+		
+section.wrap{
+		width: 70%;
+		margin:0 auto;
+		border: 1px solid orange;
+}
+div.top_box{
+		overflow:hidden;
+		border: 1px solid black;
+}
+div.top_box p{
+		width: 30%;
+		float:left;
+		color:white;
+		background:red;
+		line-height:50px; 
+		text-align: center;
+}
+div.top_box div{
+		width: 30%;
+		float:right;
+}
+div.top_box img{
+		width: 100%;
+		vertical-align:bottom;
+}
+div.mid_box div{
+		margin: 20px 0;
+		border: 1px solid skyblue;
+}
+div.mid_box h3{
+		color: red;
+		font-weight: bold;
+}
+table{
+		margin-bottom:20px;
+		width:100%;
+		table-layout:fixed; /*열 너비 자동맞춤*/
+}
+caption{
+		margin: 20px 0;
+		font-size:0.9em;
+}
+tr.red{
+		background:red;
+}
+td.ver{
+		text-align:left;
+		vertical-align:top;
+		
+}
+tr.yel_blue{
+		background:blue;
+}

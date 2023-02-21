@@ -1,0 +1,94 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: black;}
+ul li{list-style:none;}
+
+span{
+		display:block;
+}
+div.wrap{
+	
+		width: 80%;
+		height: 300px;
+		margin:50px auto 0 auto;
+		padding-top:50px;
+}
+
+div.wrap_1{
+		width:150px;
+		height: 150px;
+		margin-left:3%;
+		border: 1px solid black;
+		float:left;
+		cursor:pointer;
+}
+div.wrap_1 div{
+		width:100%;
+		line-height:150px;
+		background: rgba(0,0,100,.4);
+		text-align:center;
+		
+}
+/*상단*/
+div.TransX:hover{
+		transform: translate(20px, 0px);
+		transition: all 1s ease;
+}
+div.TransY:hover{
+		transform: translate(0px, 20px);
+		transition: all 1s ease;
+}
+div.Trans:hover{
+		transform: translate(20px, 20px);
+		transition: all 1s ease;
+}
+div.rotate:hover{
+		transform:rotateZ(45deg);
+		transition: all 1s ease;
+}
+div.Tran-ori{
+		transition: all 1s ease;
+		transform-origin: left top;
+}
+div.Tran-ori:hover{
+		
+		transform:rotate(90deg);
+		
+}
+/*하단*/
+div.rotX{
+	transform-origin:left top;
+	transition: all 1s ease;
+}
+div.rotX:hover{
+		transform: rotateX(180deg);
+		
+}
+div.rotY{
+		transform-origin:left;
+		transition: all 1s ease;
+}
+div.rotY:hover{
+		transform: rotateY(-180deg);
+		
+}
+div.skX:hover{
+		transform: skewX(50deg);
+		
+		transition: all 1s ease;
+}
+div.skY:hover{
+		transform: skewY(50deg);
+		
+		transition: all 1s ease;
+}
+
+div.sca a{
+		display:block;
+		transition: all 1s ease;
+}
+div.sca a:hover{
+		transform: scale(2);
+		color:red;
+		
+		
+}

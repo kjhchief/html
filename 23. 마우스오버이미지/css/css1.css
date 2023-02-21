@@ -1,0 +1,59 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+div.wrap{
+		width:80%;
+		margin: 0 auto;
+		
+}
+div.wrap_1{
+		margin-top: 50px;
+		overflow:hidden;
+}
+div.wrap_1 div{
+		width:25%;
+		float:left;
+		
+}
+
+div.wrap_1>div>img{
+		width:100%;
+		vertical-align:bottom;
+}
+
+div.wrap_2{
+		text-align:center;
+}
+div.wrap_2 img{
+		width: 16.666%;
+}
+/*확대그림*/
+div.ani{
+		margin-top: 100px;
+		width: 20%;
+		border: 1px solid red;	
+		overflow:hidden;
+}
+
+div.ani img{
+		width:100%;
+		vertical-align:bottom;
+		border:0;
+		
+}
+
+div.ani a:hover img{
+	transform: scale(1.5);
+	transition: all 2.5s ease;
+}
+
+div.um {
+	width:15%;
+}
+
+div.um img{
+		vertical-align:bottom;
+		border:0;
+		width:100%;
+}

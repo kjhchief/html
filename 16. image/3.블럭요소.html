@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>블럭 요소</title>
+	<style>
+		*{margin:0; padding:0; box-sizing:border-box;}
+		a{text-decoration:none;}
+		
+		div.frame{border:1px solid red;}
+		
+		h1, h2, p{margin:0 auto; width: 80%; padding: 2%; border: 1px solid green; text-align: center;}
+		
+		p.p1{margin:0 auto; width: 80%; padding: 2%; border: 1px solid green; text-align: center; font-size:1.5em;}
+		p.p2{margin:0 auto; width: 80%; padding: 2%; border: 1px solid green; text-align: center; font-size:1.5em;}
+		p.p3{font-size:1.5em;}
+		p.p4{font-size:1.5em;}
+		
+		p.p3 a{color:blue;}
+		p.p3 a:hover{color:orange; text-decoration:underline;}
+		p.p3 strong:hover{color:green;}
+
+	</style>
+</head>
+
+<body>
+	<div class="frame">
+		<h1>블록 요소</h1>
+		<!--<p><h1>~<h6> <ul><ol><div><form><hr><table><fieldset><address> -->
+		<h2>블록 요소 성질</h2>
+		<p class="p1">앞뒤로 줄 바꿈이 생깁니다.</p>
+		<p class="p2">전체 가로 사이즈 다 차지함</p>
+		<p class="p3">이제 <a href="http://www.google.com">이 링크를 클릭하여 <strong>구글</strong>로 이동</a> 합시다.</p>
+		<p class="p4">위 예시에서 p는 블럭 요소이고, a, strong은 인라인 요소입니다. 인라인 특히 strong 요소는 a 요소 안에 중첩되어 쓰이고 있습니다.</p>
+	</div>	
+
+</body>
+	
+	
+</html>

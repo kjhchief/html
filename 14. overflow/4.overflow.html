@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>overflow</title>
+	<style>
+		*{margin:0; padding:0; box-sizing: border-box;}
+	
+		div{
+			width: 200px; height: 100px;
+			background: black;
+			color: red;
+			margin: 20px; 
+			float:left;
+		}
+		
+		div.frame2{
+			overflow: visible;
+		}
+		
+		div.frame3{
+			overflow: hidden;
+		}
+		
+		div.frame4{
+			overflow: scroll;
+		}
+		
+		div.frame5{
+			overflow: auto;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="frame1">
+		<h3>기본값</h3>
+		<h3>기본값</h3>
+		<p class="p1 v">영역 벗어난 부분을 자르지 않고 눈에 보이게 함. 영역 벗어난 부분을 자르지 않고 눈에 보이게 함.(기본값)</p>
+	</div>
+	
+	<div class="frame2">
+		<h3>visible</h3>
+		<h3>overflow: visible</h3>
+		<p class="p2 v">영역 벗어난 부분을 자르지 않고 눈에 보이게 함. 영역 벗어난 부분을 자르지 않고 눈에 보이게 함.</p>
+	</div>
+	
+	<div class="frame3">	
+		<h3>hidden</h3>
+		<h3>overflow: hidden</h3>
+		<p class="p3 v">영역 벗어난 부분을 숨겨서 눈에 안 보이게 함. 영역 벗어난 부분을 숨겨서 눈에 안 보이게 함.</p>
+	</div>	
+	
+	<div class="frame4">	
+		<h3>scroll</h3>
+		<h3>overflow: scroll</h3>
+		<p class="p4 v">영역 밖에선 안 보이되, 스크롤 생성해 스크롤 내릴 경우 보이게 함. (넘어가든 안 넘어가든 무조건 스크롤 생성) 영역 밖에선 안 보이되, 스크롤 생성해 스크롤 내릴 경우 보이게 함. (넘어가든 안 넘어가든 무조건 스크롤 생성)</p>
+	</div>	
+	
+	<div class="frame5">	
+		<h3>auto</h3>
+		<h3>overflow: auto</h3>
+		<p class="p5 v">영역 벗어난 부분 존재 시, 자동으로 스크롤 생기게 만듦. (넘어간 경우에만 스크롤 생성) 영역 벗어난 부분 존재 시, 자동으로 스크롤 생기게 만듦. (넘어간 경우에만 스크롤 생성)</p>
+	</div>
+
+</body>
+	
+	
+</html>

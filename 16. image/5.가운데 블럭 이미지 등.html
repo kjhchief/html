@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>가운데 블럭 이미지 등</title>
+	<style>
+		*{margin:0; padding:0; box-sizing:border-box;}
+		ul li{list-style:none;}
+	
+		body {background:#ccffff;}
+		h1{background:red;}
+		h2{background:green;}
+		h3{background:blue;}
+		p{background:yellowgreen;}
+		div{background:yellow;}
+		span{background:violet;}
+		li{background:orange; text-align:center;}
+		
+		div.d{margin:0 auto; border: 2px solid #000; background:yellow; text-align:center;}
+		div.d img{vertical-align:bottom;}
+		div.frame3 img{width:33.333%;}
+		
+		div.frame6{text-align:right;}
+		
+		div.frame7{width:80%; border: 5px solid red; overflow:hidden;}
+		div.frame7 p{width: 25%; float:left;}
+		div.frame7 img{width: 100%; border:none;}
+		img.img1{width: 20%;} /*이미지에 클래스 따로 줬는데 왜 안먹지?*/
+
+	</style>
+</head>
+
+<body>
+	body - 영역
+	<h1>h1</h1>
+	<h2>h2</h2>
+	<h3>h3</h3>
+	<p>p</p>
+	<div>div</div>
+	<span>spanspanspanspanspan</span>
+	<ul>
+		<li>li</li>
+	</ul>
+	
+	<div class="frame d"><img src="image01_20.jpg">
+	<img src="image01_20.jpg">
+	<img src="image01_20.jpg">
+	<img src="image01_20.jpg"></div>
+	
+	<div class="frame2 d"><img src="image01_20.jpg"><img src="image01_20.jpg"><img src="image01_20.jpg"><img src="image01_20.jpg"></div>
+	
+	<div class="frame3 d"><img src="image01_20.jpg"><img src="image01_20.jpg"><img src="image01_20.jpg"></div>
+	<div class="frame4 d"><img src="image01_20.jpg"></div>
+	<div class="frame5 d"><img src="image01_20.jpg"><img src="image01_20.jpg"><img src="image01_20.jpg"></div>
+	<div class="frame6 d"><img src="image01_20.jpg"><img src="image01_20.jpg"><img src="image01_20.jpg"></div>
+	
+	<div class="frame7 d">
+		<p class="box1"><img class="img1" src="image01_20.jpg"></p>
+		<p class="box2"><img src="image01_20.jpg"></p>
+		<p class="box3"><img src="image01_20.jpg"></p>
+		<p class="box4"><img src="image01_20.jpg"></p>
+	</div>
+	
+
+</body>
+	
+	
+</html>

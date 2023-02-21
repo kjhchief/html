@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>background_2</title>
+	<style>
+		div{width:500px; height:200px; border: 2px solid #000;  background-image: url("background.jpg"); background-repeat: no-repeat;}
+		div.d1{background-size: auto auto;} /*기본값으로 너비 높이 모두 원래 크기로*/
+		div.d2{background-size: 300px auto;} /*너비 300px 높이 원래 크기로*/
+		div.d3{background-size: 300px 150px;} /*너비 300px 높이 150px 왜곡*/
+		div.d4{background-size: contain;} /*contain 긴쪽 최대로 맞춤. 박스가 남을 수 있음. 백그라운드 이미지 우선. 화면이 남음.*/
+		div.d5{background-size: cover;} /*cover완전히 덮음. 이미지 잘릴 수도 있음*/
+		div.d6{background-size: 50% auto;} /*50% 부모 박스요소의 %로 잡음*/
+		div.d7{background-size: 100% auto;} /*100% 부모 박스요소의 %로 잡음*/
+		div.d8{background-size: 100% 100%;} /*100% 부모 박스요소의 %로 잡음. 찌그러져서 하면 안 됨*/
+		div.d8{height: 200px; background-size: contain;} 
+
+	</style>
+</head>
+
+<body>
+	<div class="d1"><p>auto너비 높이 모두 원래 크기로</p></div>
+	<div class="d2"><p>너비 300px 높이 원래 크기로</p></div>
+	<div class="d3"><p>너비 300px 높이 150px 왜곡</p></div>
+	<div class="d4"><p>contain 긴쪽 최대로 맞춤. 박스가 남을 수 있음.</p></div>
+	<div class="d5"><p>cover완전히 덮음. 이미지 잘릴 수도 있음</p></div>
+	<div class="d6"><p>50% 부모 박스요소의 %로 잡음</p></div>
+	<div class="d7"><p>100% 부모 박스요소의 %로 잡음</p></div>
+	<div class="d8"><p>100% 부모 박스요소의 %로 잡음. 찌그러져서 하면 안 됨</p></div>
+
+</body>
+	
+	
+</html>

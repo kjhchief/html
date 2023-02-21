@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>font스타일_전체명시</title>
+	<style>
+	p{font-size:30px;} /*실무에서는 이렇게 p 전체 건드리면 안 됨*/
+	p.a1 {color:pink; background:aqua;}
+	/*텍스트칼라는 color만 기입 중요*/
+	/*글씨색깔은 폰트없이 컬러 백그라운드는 폰트없이 백그라운드라고만 쓴다*/
+	
+	p.text01{	
+				color:pink;
+				background:green;
+				}
+	p.text02{
+				font-style:italic; /*이탤릭 반대는 normal*/
+				}
+	p.text03{
+				font-weight:bold;
+				} /*400-900까지 굵기 선택 가능. 서체마다 틀림*/
+	p.text04{
+				font-family:"돋움", dotum, "굴림", gulim, sans-serif;
+				} /*sans-serif=고딕체, 왼쪽 돋움부터 산세리프까지 있는거 나올때까지 순차적으로찾음*/
+	p.text05_1{
+				font-variant:small-caps; /*소문자 크기의 작은 대문자로 나와야함*/
+				}
+	p.text06{
+				font: bold italic 18px/2.5  /*행간표기배율*/
+				"돋움",dotum,"굴림",sans-serif;
+				}
+	p.end{
+			font:bold 25px/45px '나눔고딕',Arial,sans-serif; /*행간표시고정*/
+			}
+			
+/*.a6 {font: ;} (공통정의)으로 쓰려면 순서를 맞춰서 써야함, weight style variant 크기/line-height)(간격) 서체 공통정의 시 font-size,font-family반드시 기입해야 함. 그렇지 않으면 인식하지 못함*/
+				
+	</style>
+	
+</head>
+
+<body>
+	<p>글자컬러pink백그라운드색green</p>
+	<p class="text01">글자컬러pink백그라운드색green</p>
+	<p class="text02">글자스타일</p>
+	<p class="text03">글자굵기</p>
+	<p class="text04">글자글꼴</p>
+	<p class="text05">원래The end</p>
+	<p class="text05_1">소문자크기대문자the end</p>
+	<p class="text06">
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></p>
+	<p class="end">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+
+</body>
+	
+	
+</html>

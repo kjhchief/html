@@ -1,0 +1,68 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+ul li{list-style:none;}
+
+ul.nl{margin-bottom:50px; }
+
+ul.il{}
+ul.il li{
+		display:inline-block;
+		margin-right:5px; 
+		padding: 5px; 
+		width:80px; 
+		border: 1px solid black;  
+		text-align:center;
+		}
+
+ul.il_01{margin-top:10px;}
+ul.il_01 li{
+			display:inline-block;
+			padding: 5px; 
+			width:80px; 
+			border: 1px solid black; 
+			text-align:center;
+			}
+
+ul.fl{
+		overflow:hidden; 
+		margin:10px 0;
+		text-align:center;
+		}
+ul.fl li{
+		float:left;
+		padding: 5px; 
+		width: 80px; 
+		border:1px solid black; 
+		}
+		
+div.box3{display:none;} /*영역까지 없앰. 엄청 자주 씀*/
+
+div.box1 img{
+				display:block;
+				vertical-align:bottom;
+				width: 150px; 
+				}
+				
+div.box2 img{
+				width: 150px;
+				}
+				
+div.box3 img{
+				vertical-align:bottom;
+				width: 150px;
+				}
+
+div.container{
+					border: 5px solid red;
+					text-align:center;}
+div.container div{
+					border: 1px solid black;
+				}
+div.container .but{width: 100px; 
+						vertical-align:bottom;
+						visibility:hidden; /*안보이긴 하지만 영역 존재*/
+						}
+div.container .f2{
+						width: 150px; 
+						vertical-align:bottom; 
+						
+						}

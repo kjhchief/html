@@ -1,0 +1,35 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+div.box1{
+		overflow:hidden;
+}
+div.box1 div{
+		border:1px solid black;
+		width:15%;
+		margin-right: 2%;
+		float:left;
+		background:blue;
+}
+div.box1 div img{
+		width:100%;
+		vertical-align:bottom;
+		border:0;
+}
+div.box1_1 img:hover{
+		transform:skewX(30deg);
+		-webkit-transform:skewX(30deg);
+}
+div.box1_2 img:hover{
+		transform:skewY(15deg);
+		-webkit-transform:skewY(15deg);
+}
+div.box1_3 img:hover{
+		transform:skew(-30deg, -15deg);
+		-webkit-transform:skew(-30deg, -15deg);
+}
+div.box1_4 img:hover{
+		transform:rotate3d(2.5, 1.2, -1.5, 45deg);
+		-webkit-transform:rotate3d(2.5, 1.2, -1.5, 45deg);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>박스사이징_3</title>
+	<style>
+		*{margin:0; padding:0;}
+		a{text-decoration:none;}
+		address{font-style:normal;}
+		
+		#frame{width: 700px; background: pink; margin: 0 auto; border: 1px solid red;}
+		/*전체 박스는 웬만하면 높이 주지 않는다.*/
+		
+		#d1{width: 50%; height: 200px; border: 30px solid black; box-sizing: border-box;}
+		#d2{width: 50%; height: 200px; border: 30px solid blue; box-sizing: content-box;}
+		/*상대 배율이라서 부모랑 자식이랑 한 번에 바뀜*/
+	
+	</style>
+	
+</head>
+
+<body>
+
+	<div id="frame">
+		<div id="d1">box-sizing: border-box; 30 픽셀의 테두리를 안쪽에 그려줍니다. </div>
+		<div id="d2">box-sizing: border-box; 외부에 30픽셀의 테두리를 안쪽에 그려줍니다. </div>
+	</div>
+
+</body>
+	
+	
+</html>

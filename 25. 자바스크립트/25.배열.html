@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>25.배열</title>
+	<script type="text/javascript">
+		var days=new Array("일","월","화","수","목","금","토");
+		document.write(days[2]+'<br>');
+		document.write(days.length+'<br>');
+		///////////////////////////////////////////////////
+		var today = new Date();
+		var yoil=days[today.getDay()]; //오늘 요일에 해당하는 값을 반환. 일:0 ~ 토:6
+		document.write(yoil+'요일'+'<br>');
+		
+		///////////////////////////////////////////////////
+		//var money=new Array(100,100,200,50);
+		var money=[100,100,200,50];
+		var theLen= money.length; //전체 개수
+		var total=0;
+		for(i=0; i<theLen; i++){//전체 개수보다 작을 때 계속 1씩 더해서 반복
+			total =total+money[i];//합에서 다음 인덱스 번호 합해라
+		}
+		document.write(total);//전체 재산 합
+		
+	</script>
+	<style>
+
+	</style>
+</head>
+
+<body>
+	
+
+</body>
+	
+	
+</html>

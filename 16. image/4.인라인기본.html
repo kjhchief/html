@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>inline 기본</title>
+	<style>
+		*{margin:0; padding:0;}
+	
+		p{border: 1px solid #000;}
+		div{margin-top: 10px; padding: 1%; width: 300px; height: 100px; border:1px solid blue; text-align:center; color:white; background:red; font-size: 1em;}
+		
+		div.d1{display: block;}
+		div.d2{width: 100%; display: block;}
+		div.d3{display: inline;}
+		div.d4{display: inline;}
+		div.d5{display: inline-block;}
+		div.d6{display: inline-block;}
+		div.d7{display: inline;}
+
+	</style>
+</head>
+
+<body>
+	<p>div는 기본적으로 block 요소입니다. block 요소는 html 문서의 한 가로공간을 다 차지하게 됩니다.</p>
+	<!--자기 덩어리 영역 인식-->
+	
+	<div class="d1 d">1. display: block; block 요소화 하였습니다. div태그의 기본값이므로 변화가 없습니다.</div>
+	<div class="d2 d">1. display: block; block 요소화 하였습니다. div태그의 기본값이므로 변화가 없습니다.</div>
+	<div class="d3 d">2. display: inline; inline으로 적용하여 요소가 칸,칸으로 배치되어집니다. inline값에 의하여 width와 height 속성이 무시됩니다. </div>
+	<div class="d4 d">2. display: inline; inline으로 적용하여 요소가 칸,칸으로 배치되어집니다. inline값에 의하여 width와 height 속성이 무시됩니다.</div>
+	<div class="d5 d">3. display: inline-block; block 속성과, inline속성을 가지게 됩니다. width와 height 속성 인식합니다.</div><!--개행인식-->
+	<div class="d6 d">3. display: inline-block; block 속성과, inline속성을 가지게 됩니다. width와 height 속성 인식합니다.</div><div class="d7 d">inline 값에 의하여 width와 height 속성이 무시됩니다</div>
+	
+
+</body>
+	
+	
+</html>

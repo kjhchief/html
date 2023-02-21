@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>가운데 블럭 이미지 등2</title>
+	<style>
+		*{margin:0; padding:0; box-sizing:border-box;}
+		ul li{list-style:none;}
+		a{text-decoration:none;}
+	
+		body {background:#ccffff;}
+		h1{text-align:center; background:red;}
+		h2{text-align:center; background:green;}
+		h3{text-align:center; background:blue;}
+		p{text-align:center; background:yellowgreen;}
+		div{text-align:center; background:yellow;}
+		span{display:block; background:violet; text-align: center;}
+		
+		ul.uu1 li{border: 1px solid black; background:orange; text-align:center;}
+		
+		ul.uu2{width: 100%; border: 5px solid green; overflow:hidden;}
+		ul.uu2 a{padding: 15px; width: 100%; display:block;}
+		ul.uu2 li{width: 33.333%; border: 1px solid black; float:left; background:pink; text-align:center;}
+		/*패딩을 주려면 a에 줘야한다?*/
+		
+		div.d{margin:0 auto; border: 2px solid #000; background:yellow; text-align:center;}
+		div.d img{vertical-align:bottom;}
+		div.frame3 img{width:33.333%;}
+		
+		div.frame6{text-align:right;}
+		
+		div.frame7{width:80%; border: 5px solid red; overflow:hidden;}
+		div.frame7 p{width: 25%; float:left;}
+		div.frame7 img{width: 100%; border:none;}
+		img.img1{width: 20%;} /*이미지에 클래스 따로 줬는데 왜 안먹지?*/
+
+	</style>
+</head>
+
+<body>
+	body - 영역
+	<h1>h1</h1>
+	<h2>h2</h2>
+	<h3>h3</h3>
+	<p>p</p>
+	<div>div</div>
+	<span class="ss1">span</span>
+	<span class="ss2">span</span>
+	<span class="ss3">span</span>
+	<span class="ss4">span</span>
+	<ul class="uu1">
+		<li>li</li>
+		<li>li</li>
+		<li>li</li>
+	</ul>
+	<ul class="uu2">
+		<li><a href="http://www.naver.com">li</a></li>
+		<li><a href="http://www.naver.com">li</a></li>
+		<li><a href="http://www.naver.com">li</a></li>
+	</ul>
+	
+	<div class="frame d"><img src="../image01_20.jpg">
+	<img src="../image01_20.jpg">
+	<img src="../image01_20.jpg">
+	<img src="../image01_20.jpg"></div>
+	
+	<div class="frame2 d"><img src="../image01_20.jpg"><img src="../image01_20.jpg"><img src="../image01_20.jpg"><img src="../image01_20.jpg"></div>
+	
+	<div class="frame3 d"><img src="../image01_20.jpg"><img src="../image01_20.jpg"><img src="../image01_20.jpg"></div>
+	<div class="frame4 d"><img src="../image01_20.jpg"></div>
+	<div class="frame5 d"><img src="../image01_20.jpg"><img src="../image01_20.jpg"><img src="../image01_20.jpg"></div>
+	<div class="frame6 d"><img src="../image01_20.jpg"><img src="../image01_20.jpg"><img src="../image01_20.jpg"></div>
+	
+	<div class="frame7 d">
+		<p class="box1"><img class="img1" src="../image01_20.jpg"></p>
+		<p class="box2"><img src="../image01_20.jpg"></p>
+		<p class="box3"><img src="../image01_20.jpg"></p>
+		<p class="box4"><img src="../image01_20.jpg"></p>
+	</div>
+	
+
+</body>
+	
+	
+</html>

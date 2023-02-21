@@ -1,0 +1,208 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+ul.nl{width: 150px;
+	margin-bottom:50px;
+	text-align:center;
+	}
+ul.nl li{
+		line-height:40px;
+		border:1px solid red;	
+		border-bottom: 0;
+		}
+ul.nl li:last-child{
+		border-bottom: 1px solid red;
+		}
+ul.nl a{
+		display:block; 
+		background:black; 
+		color:yellow;
+		}
+ul.nl a:hover{background:yellow; 
+				color:black;}
+
+ul.il{
+	margin: 15px auto;
+	width: 80%;
+	}
+ul.il li{
+		display:inline-block;
+		width: 20%;
+		border: 1px solid black;  
+		text-align:center;
+		}
+		
+ul.il a{
+		display:block;
+		padding:10px;
+		background:green;
+		color: yellow;
+		}
+ul.il a:hover{
+		background:pink;
+		color:blue;}
+		
+
+ul.il_bl{
+	margin: 15px auto;
+	width: 80%;
+	}
+ul.il_bl li{
+		display:inline;
+		width: 20%;
+		border: 1px solid black;  
+		text-align:center;
+		}
+		
+ul.il_bl a{
+		display:block;
+		width: 100%; /*자식은 무조건 100%. 이미지가 아니라도?*/
+		padding:10px;
+		background:green;
+		color: yellow;
+		}
+ul.il_bl a:hover{
+		background:pink;
+		color:blue;}
+/*display:inline; 으로 바꿨을 뿐인데 안을 못 싼다. 왜냐면 인라인으로 바뀌었으니까. 인라인은 인라인을 못 싸니까?*/
+
+
+
+ul.il_01{
+			margin:10px auto;
+			width:80%
+			}
+ul.il_01 li{
+			display:inline;
+			border: 1px solid blue; 
+			text-align:center;
+			background:pink;
+			}
+			
+ul.il_01 a{
+		display:block;
+		line-height:40px;
+		color: blue;
+		}
+ul.il_01 a:hover{
+		background:green;
+		color:yellow;}
+
+ul.fl{
+		overflow:hidden; 
+		margin:10px auto;
+		width:80%;
+		text-align:center;
+		}
+ul.fl li{
+		float:left;
+		width: 20%; 
+		border:1px solid black; 
+		border-right: 0;
+		}
+ul.fl li:last-child{border-right: 1px solid;}
+
+ul.fl li{
+		float:left;
+		width: 20%; 
+		border:1px solid black; 
+		border-left: 0;
+		}
+ul.fl li:first-child{border-left: 1px solid;}
+
+ul.fl a{
+		display:block;
+		padding:10px;
+		background:pink;
+		color:blue;
+		}
+		
+ul.fl a:hover{
+		background:green;
+		color:yellow;}
+		
+ul.fl_01{
+		overflow:hidden; 
+		margin:10px auto;
+		width:80%;
+		text-align:center;
+		}
+ul.fl_01 li{
+		float:left;
+		width: 20%; 
+		border:1px solid black; 
+		border-right: 0;
+		}
+ul.fl_01 li:nth-child(5){
+		border-right: 1px solid;
+		}
+
+ul.fl_01 a{
+		display:block;
+		line-height :50px;
+		background:pink;
+		color:blue;
+		}
+		
+ul.fl_01 a:hover{
+		background:green;
+		color:yellow;}
+		
+ul.flh{
+		overflow:hidden; 
+		margin:10px auto;
+		width:80%;
+		text-align:center;
+		}
+ul.flh li{
+		float:left;
+		width: 20%; 
+		border:1px solid black; 
+		border-right: hidden;
+		}
+ul.flh li:last-child{border-right: 1px solid;}
+
+ul.flh a{
+		display:block;
+		padding:10px;
+		background:pink;
+		color:blue;
+		}
+		
+ul.flh a:hover{
+		background:green;
+		color:yellow;}		
+	
+div.box3{display:none;} /*영역까지 없앰. 엄청 자주 씀*/
+
+div.box1 img{
+				display:block;
+				vertical-align:bottom;
+				width: 150px; 
+				}
+				
+div.box2 img{
+				width: 150px;
+				}
+				
+div.box3 img{
+				vertical-align:bottom;
+				width: 150px;
+				}
+
+div.container{
+					border: 5px solid red;
+					text-align:center;}
+div.container div{
+					border: 1px solid black;
+				}
+div.container .but{width: 100px; 
+						vertical-align:bottom;
+						visibility:hidden; /*안보이긴 하지만 영역 존재*/
+						}
+div.container .f2{
+						width: 150px; 
+						vertical-align:bottom; 
+						
+						}

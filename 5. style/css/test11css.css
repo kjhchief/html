@@ -1,0 +1,14 @@
+*{margin:0; padding:0;}
+a{text-decoration:none;}
+address{font-style:normal;}
+
+div.d1{width: 60%; border: 1px solid #333; padding: 20px; margin: 0 auto; margin-bottom: 30px;}
+p.v{font-size: 2em; text-align:justify; }
+	
+span.s1{color: pink;}
+span.s2{color: green;}
+
+h2.h{text-align: center; color: blue;}
+p.p1{color: red; }
+p.p2{}
+p.p3{color: orange; }

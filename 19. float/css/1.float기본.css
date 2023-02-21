@@ -1,0 +1,23 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color: #333;}
+ul li{list-style:none;}
+
+div.wrap{
+		width: 400px;
+		border: 10px solid yellow;
+		overflow:hidden;
+	}
+	
+div.wrap div{
+		width: 33.333%;
+		height: 100px;
+		float:left;
+}
+	
+div.wrap div:nth-child(1){
+		background:red;
+}div.wrap div:nth-child(2){
+		background:blue;
+}div.wrap div:nth-child(3){
+		background:green;
+}

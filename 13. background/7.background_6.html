@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>background 단축코드</title>
+	<style>
+		*{margin:0; padding: 0; box-sizing: border-box;}
+	
+		h1.t1{margin: 0 auto; width: 100%; padding: 3% 10%; text-align:right; background: gray;}
+		img{vertical-align: middle; width:10%; border:none;} /*이미지에는 안 보이지만 보더가 있다. none을 꼭 주자*/
+		
+		p{margin: 15px auto; width: 500px; border: 1px solid #000;background: yellow url("background.jpg") no-repeat ; text-align:justify;}
+		
+		
+		p.p1{padding: 50px; background-position: right bottom; background-size: 100px auto; }
+		/*background: yellow url("background.jpg") no-repeat right bottom;
+		background-position: no-repeat 반드시 써줌. 가로(x),세로(y)순서로 기재*/
+		
+		p.p2{padding: 20px 20px 20px 190px; background-position: 20px 50%;}
+		/*픽셀이나 방향 외에 center, %도 사용 가능함*/
+		
+		p.p3{padding: 80px; background-position: center; background-size: auto;}
+
+	</style>
+</head>
+
+<body>
+	<h1 class="t1"><a href="http://www.naver.com"><img src="background.jpg" alt="사막1"/></a></h1>
+	<p class="p1">font 속성과 같이 background속성을 이용하면 background 관련 5가지 속성을 단축해서 한 번에 선언할 수 있습니다. background속성을 사용할 때는 각 배경 관련 속성들의 값을 한 번 씩만 순서에 관계 없이 선언하면 됩니다.</p>
+	<p class="p2">font 속성과 같이 background속성을 이용하면 background 관련 5가지 속성을 단축해서 한 번에 선언할 수 있습니다. background속성을 사용할 때는 각 배경 관련 속성들의 값을 한 번 씩만 순서에</p>
+	<p class="p3">font 속성과 같이 background속성을 이용하면 background 관련 5가지 속성을 단축해서 한 번에 선언할 수 있습니다. background속성을 사용할 때는 각 배경 관련 속성들의 값을 한 번 씩만 순서에 관계 없이 선언하면 됩니다.</p>
+	
+
+</body>
+	
+	
+</html>
